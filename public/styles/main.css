@@ -1,3 +1,30 @@
+/* put styles that are COMMON to all pages*/
 body {
-  background-color: blanchedalmond;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#nav-bar {
+  width: fit-content;
+}
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+
+#nav-bar ul li {
+  list-style-type: none;
+  margin: 0 1em;
+  color: white;
+}
+
+#nav-bar a {
+  text-decoration: none;
+}
+
+#nav-bar a:visited {
+  color: white;
 }
